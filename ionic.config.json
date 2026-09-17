@@ -1,0 +1,7 @@
+{
+  "name": "issale_sawab_app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
