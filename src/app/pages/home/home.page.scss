@@ -1,0 +1,35 @@
+ion-icon {
+  font-size: 48px;
+  color: var(--ion-color-primary);
+}
+ion-card {
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0px 14px 26px -5px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 0px 14px 26px -5px rgba(0, 0, 0, 0.45);
+}
+ion-content{
+    text-align:center;
+}
+h2 {
+  font-family: 'Amiri', serif;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+h2 span {
+  flex: 1;
+  border-top: 1px solid var(--ion-color-primary);
+}
+ion-content {
+  --padding-start: 16px;
+  --padding-end: 16px;
+}
+.cartes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 75%;
+}
+
