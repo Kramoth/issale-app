@@ -1,19 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
+import { DaroodsService } from '../../services/daroods.service';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { IonContent, IonHeader, IonTitle, IonToolbar } from '@ionic/angular';
+import { IonContent, IonList, IonItem, IonLabel } from '@ionic/angular';
 
 @Component({
   selector: 'app-booklet',
   templateUrl: './booklet.page.html',
   styleUrls: ['./booklet.page.scss'],
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule]
+  imports: [IonContent, IonList, IonItem, IonLabel, CommonModule, FormsModule]
 })
-export class BookletPage implements OnInit {
+export class BookletPage {
+
 
   constructor() { }
-
-  ngOnInit() {
-  }
-
+  private daroodsService = inject(DaroodsService);
+  daroods$=this.daroodsService.getDaroods();
 }

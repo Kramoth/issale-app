@@ -6,6 +6,6 @@ import { HttpClient } from '@angular/common/http';
 export class DaroodsService {
   private http = inject(HttpClient);
   getDaroods() {
-    return this.http.get('assets/data/daroods.json');
+    return this.http.get<any[]>('assets/data/daroods.json');
   }
 }

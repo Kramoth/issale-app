@@ -3,12 +3,14 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\pages\\tasbih",
+    "\\src\\app\\pages",
+    "\\src\\app\\pages\\booklet",
+    "\\src\\app\\pages\\darood-detail",
     "\\src\\app\\services",
+    "\\src\\app\\tabs",
     "\\src\\assets",
-    "\\src\\assets\\data",
-    "\\src\\environments",
-    "\\src\\theme"
+    "\\src\\assets\\data"
   ],
+  "SelectedNode": "\\src\\app\\services\\daroods.service.ts",
   "PreviewInSolutionExplorer": false
 }

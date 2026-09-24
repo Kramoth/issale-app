@@ -27,6 +27,11 @@ export const routes: Routes = [
           import('../pages/circle/circle.page').then((m) => m.CirclePage),
       },
       {
+        path: 'booklet/detail/:id',
+        loadComponent: () =>
+          import('../pages/darood-detail/darood-detail.page').then((m) => m.DaroodDetailPage),
+      },
+      {
         path: '',
         redirectTo: 'home',
         pathMatch: 'full',
