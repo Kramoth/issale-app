@@ -1,0 +1,18 @@
+h2 {
+  font-family: 'Amiri', serif;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+h2 span {
+  flex: 1;
+  border-top: 1px solid var(--ion-color-primary);
+}
+
+ion-content {
+  --padding-start: 16px;
+  --padding-end: 16px;
+  --padding-top: 16px;
+  --padding-bottom: 16px;
+}

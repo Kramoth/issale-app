@@ -6,17 +6,82 @@
       {
         "arabe": "اللّهُمَّ صَلِّ عَلى مُحَمَّدٍ ما دامَتِ الصَّلَواتُ",
         "translitteration": "Allahumma Salli Ala Muhammadim Ma Daamatis Salawaatu",
-        "traduction": "Ô Allah, répands Tes bénédictions sur Mahomet aussi longtemps que durent les prières"
+        "traduction": "Ô Allah, répands Tes bénédictions sur  Mohammad ﷺ aussi longtemps que durent les prières"
       },
       {
         "arabe": "وَصَلِّ عَلى مُحَمَّدٍ ما دامَتِ الرَّحْمَةُ",
         "translitteration": "Wa Salli Ala Muhammadim Madaamatir Rahmati",
-        "traduction": "et répands Tes bénédictions sur Mahomet aussi longtemps que dure la miséricorde"
+        "traduction": "et répands Tes bénédictions sur  Mohammad ﷺ aussi longtemps que dure la miséricorde"
       },
       {
         "arabe": "وَصَلِّ عَلى مُحَمَّدٍ ما دامَتِ البَرَكاتُ",
         "translitteration": "Wa Salli Ala Muhammadim Madaamatil Barakaatu",
-        "traduction": "et répands Tes bénédictions sur Mahomet aussi longtemps que durent les bénédictions"
+        "traduction": "et répands Tes bénédictions sur  Mohammad ﷺ aussi longtemps que durent les bénédictions"
+      },
+      {
+        "arabe": "وَصَلِّ عَلى رُوحِ مُحَمَّدٍ فِي الأَرْواحِ",
+        "translitteration": "Wa Salli Ala Ruhi Muhammadin Fil Arwaahi",
+        "traduction": "Et répands Tes bénédictions sur l'esprit (Rûh) de  Mohammad ﷺ parmi les esprits"
+      },
+      {
+        "arabe": "وَصَلِّ عَلى صُورَةِ مُحَمَّدٍ فِي السُوَرِ",
+        "translitteration": "Wa Salli Ala Surati Muhammadin Fis Suwari",
+        "traduction": "sur la forme (Sûrah) de  Mohammad ﷺ parmi les formes"
+      },
+      {
+        "arabe": "وَصَلِّ عَلى اسْمِ مُحَمَّدٍ فِي الأَسْماءِ",
+        "translitteration": "Wa Salli Ala Ismi Muhammadin Fil Asmaa'i",
+        "traduction": "sur le nom (Ism) de  Mohammad ﷺ parmi les noms"
+      },
+      {
+        "arabe": "وَصَلِّ عَلى نَفْسِ مُحَمَّدٍ فِي النُّفُوسِ",
+        "translitteration": "Wa Salli Ala Nafsi Muhammadin Fil Nufusi",
+        "traduction": "sur l'essence (Nafs) de  Mohammad ﷺ parmi les essences"
+      },
+      {
+        "arabe": "وَصَلِّ عَلى قَلْبِ مُحَمَّدٍ فِي القُلُوبِ",
+        "translitteration": "Wa Salli Ala Qalbi Muhammadin Fil Qulubi",
+        "traduction": "sur le cœur (Qalb) de  Mohammad ﷺ parmi les cœurs"
+      },
+      {
+        "arabe": "وَصَلِّ عَلى قَبْرِ مُحَمَّدٍ فِي القُبُورِ",
+        "translitteration": "Wa Salli Ala Qabri Muhammadin Fil Quburi",
+        "traduction": "sur la tombe (Qabr) de  Mohammad ﷺ parmi les tombes"
+      },
+      {
+        "arabe": "وَصَلِّ عَلى رَوْضَةِ مُحَمَّدٍ فِي الرِّياضِ",
+        "translitteration": "Wa Salli Ala Rawdati Muhammadin Fir Riyaadi",
+        "traduction": "sur le sanctuaire (Rawdah) de  Mohammad ﷺ parmi les sanctuaires"
+      },
+      {
+        "arabe": "وَصَلِّ عَلى جَسَدِ مُحَمَّدٍ فِي الأَجْسادِ",
+        "translitteration": "Wa Salli Ala Jasadi Muhammadin Fil Ajsaadi",
+        "traduction": "sur le corps (Jasad) de  Mohammad ﷺ parmi les corps"
+      },
+      {
+        "arabe": "وَصَلِّ عَلى تُرْبَةِ مُحَمَّدٍ فِي التُّرابِ",
+        "translitteration": "Wa Salli Ala Turbati Muhammadin Fit Turabi",
+        "traduction": "et sur la terre (Turbah) de  Mohammad ﷺ parmi les terres"
+      },
+      {
+        "arabe": "وَصَلِّ عَلى خَيْرِ خَلْقِهِ سَيِّدِنا مُحَمَّدٍ",
+        "translitteration": "Wa Salli Ala Khairi Khalqihi Sayyidina Muhammadiw",
+        "traduction": "Et répands Tes bénédictions sur le meilleur de Tes créatures, notre maître  Mohammad ﷺ"
+      },
+      {
+        "arabe": "وَعَلى آلِهِ وَأَصْحابِهِ وَأَزْواجِهِ وَذُرِّيَّاتِه",
+        "translitteration": "Wa Ala Alihi Wa Ashabihi Wa Azwaajihi Wazuriyaatihi",
+        "traduction": "ainsi que sur sa famille, ses compagnons, ses épouses, sa descendance"
+      },
+      {
+        "arabe": "وَأَهْلِ بَيْتِهِ وَأَحْبَابِهِ أَجْمَعِينَ",
+        "translitteration": "Wa Ahli Baytihi Wa Ahbabihi Ajma'ina",
+        "traduction": "les gens de sa maison (Ahl al-Bayt) et tous ses proches"
+      },
+      {
+        "arabe": "بِرَحْمَتِكَ يا أَرْحَمَ الرَّاحِمِينَ",
+        "translitteration": "Birahmatika Yaa Ar Hamar Raahimeen.",
+        "traduction": "ô Toi le plus miséricordieux des miséricordieux"
       }
     ]
   },
@@ -27,37 +92,37 @@
       {
         "arabe": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ",
         "translitteration": "Allāhumma ṣalli ʿalā sayyidinā Muḥammadin",
-        "traduction": "Ô Allah, répands Tes bénédictions sur Mahomet aussi longtemps que durent les prières"
+        "traduction": "Ô Allah, répands Tes bénédictions sur notre maître Mohammad ﷺ"
       },
       {
         "arabe": "صَلَاةً تُنَجِّيْنَا بِهَا مِنْ جَمِيْعِ الْأَهْوَالِ وَالْآفَاتِ",
         "translitteration": "ṣalātan tunajjīnā bihā min jamīʿil-ahwāli wal-āfāt",
-        "traduction": "et répands Tes bénédictions sur Mahomet aussi longtemps que dure la miséricorde"
+        "traduction": "une prière par laquelle Tu nous délivres de toutes les terreurs et de tous les fléaux"
       },
       {
         "arabe": "وَتَقْضِيْ لَنَا بِهَا جَمِيْعَ الْحَاجَاتِ",
         "translitteration": "wa taqḍī lanā bihā jamīʿal-ḥājāt",
-        "traduction": "et répands Tes bénédictions sur Mahomet aussi longtemps que durent les bénédictions"
+        "traduction": "par laquelle Tu combles tous nos besoins"
       },
       {
         "arabe": "وَتُطَهِّرُنَا بِهَا مِنْ جَمِيْعِ السَّيِّئَاتِ",
         "translitteration": "wa tuṭahhirunā bihā min jamīʿis-sayyiʾāt",
-        "traduction": "et répands Tes bénédictions sur Mahomet aussi longtemps que durent les bénédictions"
+        "traduction": "par laquelle Tu nous purifies de tous les péchés"
       },
       {
         "arabe": "وَتَرْفَعُنَا بِهَا عِنْدَكَ أَعْلَى الدَّرَجَاتِ",
         "translitteration": "wa tarfaʿunā bihā ʿindaka aʿlad-darajāt",
-        "traduction": "et répands Tes bénédictions sur Mahomet aussi longtemps que durent les bénédictions"
+        "traduction": "par laquelle Tu nous élèves auprès de Toi aux plus hauts degrés"
       },
       {
         "arabe": "وَتُبَلِّغُنَا بِهَا أَقْصَى الْغَايَاتِ",
         "translitteration": "wa tuballighu nā bihā aqṣal-ghāyāt",
-        "traduction": "et répands Tes bénédictions sur Mahomet aussi longtemps que durent les bénédictions"
+        "traduction": "et par laquelle Tu nous fais atteindre les limites suprêmes"
       },
       {
         "arabe": "مِنْ جَمِيْعِ الْخَيْرَاتِ فِي الْحَيَاةِ وَبَعْدَ الْمَمَاتِ",
         "translitteration": "min jamīʿil-khayrāti fil-ḥayāti wa baʿdal-mamāt",
-        "traduction": "et répands Tes bénédictions sur Mahomet aussi longtemps que durent les bénédictions"
+        "traduction": "de toutes les bonnes œuvres,dans cette vie ici-bas et après la mort"
       }
     ]
   }

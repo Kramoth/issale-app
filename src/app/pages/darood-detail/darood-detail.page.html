@@ -1,13 +1,17 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>darood-detail</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">darood-detail</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  @if(darood$ | async; as darood)
+  {
+    <div class="page">
+      <h2>
+        <span></span>
+        {{darood.nom}}
+        <span></span>
+      </h2>
+    </div>
+    @for (verset of darood.versets; track $index) {
+      <p dir="rtl">{{ verset.arabe }}</p>
+      <p class="transliteration">{{ verset.translitteration }}</p>
+      <p>{{ verset.traduction }}</p>
+    }
+  }
 </ion-content>

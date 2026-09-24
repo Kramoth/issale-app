@@ -10,7 +10,7 @@
   <ion-list>
     @for (darood of daroods$ | async; track $index)
     {
-    <ion-item button="true">
+    <ion-item button="true" routerLink="/tabs/booklet/detail/{{darood.id}}">
       <ion-label>{{darood.nom}}</ion-label>
     </ion-item>
     }
