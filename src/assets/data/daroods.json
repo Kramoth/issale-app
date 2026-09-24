@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nom": "Darood-e-Roohi",
+    "versets": [
+      {
+        "arabe": "اللّهُمَّ صَلِّ عَلى مُحَمَّدٍ ما دامَتِ الصَّلَواتُ",
+        "translitteration": "Allahumma Salli Ala Muhammadim Ma Daamatis Salawaatu",
+        "traduction": "Ô Allah, répands Tes bénédictions sur Mahomet aussi longtemps que durent les prières"
+      },
+      {
+        "arabe": "وَصَلِّ عَلى مُحَمَّدٍ ما دامَتِ الرَّحْمَةُ",
+        "translitteration": "Wa Salli Ala Muhammadim Madaamatir Rahmati",
+        "traduction": "et répands Tes bénédictions sur Mahomet aussi longtemps que dure la miséricorde"
+      },
+      {
+        "arabe": "وَصَلِّ عَلى مُحَمَّدٍ ما دامَتِ البَرَكاتُ",
+        "translitteration": "Wa Salli Ala Muhammadim Madaamatil Barakaatu",
+        "traduction": "et répands Tes bénédictions sur Mahomet aussi longtemps que durent les bénédictions"
+      }
+    ]
+  }
+]

@@ -3,14 +3,12 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\pages",
-    "\\src\\app\\pages\\home",
     "\\src\\app\\pages\\tasbih",
+    "\\src\\app\\services",
     "\\src\\assets",
-    "\\src\\assets\\icon",
+    "\\src\\assets\\data",
     "\\src\\environments",
     "\\src\\theme"
   ],
-  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
