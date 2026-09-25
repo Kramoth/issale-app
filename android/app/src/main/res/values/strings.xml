@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Issale Sawab</string>
+    <string name="title_activity_main">Issale Sawab</string>
+    <string name="package_name">com.khadim.issalesawab</string>
+    <string name="custom_url_scheme">com.khadim.issalesawab</string>
+</resources>

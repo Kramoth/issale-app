@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'issale_sawab_app',
+  appId: 'com.khadim.issalesawab',
+  appName: 'Issale Sawab',
   webDir: 'www'
 };
 
