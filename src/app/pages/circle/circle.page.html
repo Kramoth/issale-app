@@ -6,11 +6,11 @@
       <span></span>
     </h2>
   </div>
-  <ion-button (click)="isModalOpen = true">Configurer</ion-button>
+
   <ion-modal [isOpen]="isModalOpen">
     <ng-template>
       <ion-content>
-        <p>Configuration (à venir)</p>
+        <p>Configuration</p>
         <ion-input type="number" [(ngModel)]="target" label="Objectif"></ion-input>
         <ion-input type="number" [(ngModel)]="step" label="Palier"></ion-input>
         <ion-button (click)="valider()">Valider</ion-button>
@@ -18,14 +18,23 @@
       </ion-content>
     </ng-template>
   </ion-modal>
-  <p>Objectif: {{target}}</p>
-  <p>Restant: {{restant()}}</p>
-  @for(elm of steps; track $index)
-  {
-  <ion-button [fill]="elm.coche ? 'solid' : 'outline'" (click)="tick(elm)">{{step}}</ion-button>
-  }
-  @if(remainder > 0)
-  {
-  <ion-button color="tertiary" [fill]="remainderTick ? 'solid' : 'outline'" (click)="remainderTick = !remainderTick">{{ remainder }}</ion-button>
-  }
+  <div class="param">
+    <p class="counter">Objectif: {{target}}</p>
+    <p class="counter">Restant: {{restant()}}</p>
+  </div>
+  <div class="grid">
+    @for(elm of steps; track $index)
+    {
+    <ion-button class="tickButton" [fill]="elm.coche ? 'solid' : 'outline'" (click)="tick(elm)">{{step}}</ion-button>
+    }
+    @if(remainder > 0)
+    {
+    <ion-button class="remainderTick" [class.remainderActif]="remainderTick" [fill]="remainderTick ? 'solid' : 'outline'" (click)="remainderTick = !remainderTick">{{ remainder }}</ion-button>
+    }
+  </div>
 </ion-content>
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-button slot="end" (click)="isModalOpen = true">Configurer</ion-button>
+  </ion-toolbar>
+</ion-footer>

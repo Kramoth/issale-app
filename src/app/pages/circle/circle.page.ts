@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { IonContent, IonButton, IonModal, IonInput } from '@ionic/angular';
+import { IonContent, IonButton, IonModal, IonInput, IonFooter, IonToolbar } from '@ionic/angular';
 
 @Component({
   selector: 'app-circle',
   templateUrl: './circle.page.html',
   styleUrls: ['./circle.page.scss'],
-  imports: [IonContent, IonButton, IonModal, IonInput, CommonModule, FormsModule]
+  imports: [IonContent, IonButton, IonModal, IonInput, IonFooter, IonToolbar, CommonModule, FormsModule]
 })
 export class CirclePage{
 
