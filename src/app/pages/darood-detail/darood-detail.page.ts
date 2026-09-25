@@ -3,13 +3,13 @@ import { ActivatedRoute } from '@angular/router';
 import { DaroodsService } from '../../services/daroods.service';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms'
-import { IonContent, IonHeader, IonTitle, IonToolbar } from '@ionic/angular';
+import { IonContent, IonTitle, IonHeader, IonToolbar } from '@ionic/angular';
 
 @Component({
   selector: 'app-darood-detail',
   templateUrl: './darood-detail.page.html',
   styleUrls: ['./darood-detail.page.scss'],
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule]
+  imports: [IonContent, IonTitle, IonHeader, IonToolbar, CommonModule, FormsModule]
 })
 export class DaroodDetailPage implements OnInit {
   private route = inject(ActivatedRoute);

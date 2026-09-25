@@ -39,3 +39,6 @@
   font-family: "Amiri", serif;
 }
 
+ion-content {
+  --padding-top: var(--ion-safe-area-top);
+}
