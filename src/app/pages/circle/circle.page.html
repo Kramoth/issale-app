@@ -1,13 +1,15 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>circle</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">circle</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <div class="page">
+    <h2>
+      <span></span>
+      Circle
+      <span></span>
+    </h2>
+  </div>
+  <p>Objectif: {{target}}</p>
+  <p>Restant: {{restant()}}</p>
+  @for(step of steps; track $index)
+  {
+  <ion-button [fill]="step.coche ? 'solid' : 'outline'" (click)="tick(step)"></ion-button>
+  }
 </ion-content>

@@ -1,19 +1,25 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { IonContent, IonHeader, IonTitle, IonToolbar } from '@ionic/angular';
+import { IonContent, IonButton } from '@ionic/angular';
 
 @Component({
   selector: 'app-circle',
   templateUrl: './circle.page.html',
   styleUrls: ['./circle.page.scss'],
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule]
+  imports: [IonContent, IonButton, CommonModule, FormsModule]
 })
-export class CirclePage implements OnInit {
-
+export class CirclePage {
+  target = 12000;
+  step = 500;
   constructor() { }
-
-  ngOnInit() {
+  steps = Array.from({ length: this.target / this.step }, () => ({ coche: false }));
+  tick(step: any) {
+    step.coche = !step.coche;
+    console.log("coche")
   }
-
+  restant() {
+    const done = this.steps.filter(p => p.coche).length * this.step;
+    return this.target - done;
+  }
 }
