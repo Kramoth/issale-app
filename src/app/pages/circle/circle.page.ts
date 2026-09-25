@@ -10,16 +10,19 @@ import { IonContent, IonButton } from '@ionic/angular';
   imports: [IonContent, IonButton, CommonModule, FormsModule]
 })
 export class CirclePage {
-  target = 12000;
+  target = 12251;
   step = 500;
   constructor() { }
-  steps = Array.from({ length: this.target / this.step }, () => ({ coche: false }));
+  steps = Array.from({ length: Math.floor(this.target / this.step) }, () => ({ coche: false }));
+  remainder = this.target % this.step;
+  remainderTick = false;
   tick(step: any) {
     step.coche = !step.coche;
     console.log("coche")
   }
   restant() {
     const done = this.steps.filter(p => p.coche).length * this.step;
-    return this.target - done;
+    const remainderDone = this.remainderTick ? this.remainder : 0;
+    return this.target - done - remainderDone;
   }
 }

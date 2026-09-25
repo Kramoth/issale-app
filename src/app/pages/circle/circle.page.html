@@ -8,8 +8,12 @@
   </div>
   <p>Objectif: {{target}}</p>
   <p>Restant: {{restant()}}</p>
-  @for(step of steps; track $index)
+  @for(elm of steps; track $index)
   {
-  <ion-button [fill]="step.coche ? 'solid' : 'outline'" (click)="tick(step)"></ion-button>
+  <ion-button [fill]="elm.coche ? 'solid' : 'outline'" (click)="tick(elm)">{{step}}</ion-button>
+  }
+  @if(remainder > 0)
+  {
+    <ion-button color="tertiary" [fill]="remainderTick ? 'solid' : 'outline'" (click)="remainderTick = !remainderTick">{{ remainder }}</ion-button>
   }
 </ion-content>
